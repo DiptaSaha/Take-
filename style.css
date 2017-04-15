@@ -1,0 +1,405 @@
+/*
+	Author : Dipta Saha
+	Address: Uttara, Bangladesh 1230
+	Website: https://about.me/diptasaha
+	Email  : dipta196@gmail.com
+	Version: 1.0
+*/
+
+	/****************
+		Global CSS
+	****************/
+	body{
+
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+	}
+
+	/****************
+		Banner part
+	****************/
+	.banner{
+		background: url(Take.png)no-repeat center;
+		height: 100%;
+		display: block;
+		
+	}
+	.banner-content{
+		padding:70px;
+		
+	
+	}
+	.img-responsive{
+		padding-bottom:252px;
+		cursor: pointer;
+	}
+	.banner-content h1{
+		color: #fff;
+		font-size: 50px;
+		font-weight: 300;
+		letter-spacing: 1px;
+		padding-bottom: 10px;
+	}
+	.banner-content h6{
+		color: #fff;
+		font-size: 13px;
+		font-weight: 400;
+		padding-bottom: 520px;
+	}
+	
+	
+
+	/*****************
+	  Something part
+	*****************/
+	.something-content h2{
+		position: absolute;
+		top: -55px;
+		margin-left: 67px;
+		color: #222626;
+		font-size: 35px;
+		font-weight: 300;
+	}
+	.something-content h6{
+		margin-top: 29px;
+		color: #959595;
+		font-size: 13px;
+		font-weight: 400;
+		margin-left: 67px;
+		margin-bottom: -24px;
+	}
+	.something-content p{
+		color: #959595;
+		font-size: 13px;
+		font-weight: 400;
+		margin-left: 67px;
+		padding-bottom: 20px;
+	}
+	.something-content-1 h6{
+		color: #959595;
+		font-size: 13px;
+		font-weight: 400;
+		margin-left: 67px;
+		margin-top: 136px;
+		padding-bottom: 20px;
+	}
+	.something-content-1 p{
+		color: #959595;
+		font-size: 13px;
+		font-weight: 400;
+		margin-left: 67px;
+		
+	}
+
+	/**********************
+		grid's pic part
+	**********************/
+
+	.grids-1{
+		color: #fff;
+		font-size: 13px;
+		background-color: #f5989d;
+		padding: 20px;
+		transition: all 0.5s ease-in-out;
+
+	}
+	.grids-2{
+		color: #fff;
+		font-size: 13px;
+		background-color: #615f7d;
+		padding: 20px;
+		transition: all 0.5s ease-in-out;
+	}
+	.grids-3{
+		color: #fff;
+		font-size: 13px;
+		background: url(our.png)no-repeat;
+		padding: 20px;
+		
+	}
+	.grids-4{
+		color: #fff;
+		font-size: 13px;
+		background-color: #bd8cbf;
+		padding: 20px;
+		
+	}
+	.grids-5{
+		color: #fff;
+		font-size: 13px;
+		background: url(singup.png)no-repeat;
+		height: 205px;
+		padding: 20px;
+		
+	}
+	.grids-6{
+		color: #fff;
+		font-size: 13px;
+		background-color: #82ca9c;
+		padding: 20px;
+		
+	}
+	.grids-7{
+		color: #fff;
+		font-size: 13px;
+		background: url(start.png)no-repeat;
+		padding: 20px;
+		
+		}
+		.portfolio{
+			max-width: 753px;
+		}
+		.portfolio:hover{
+			transform: scale(.9,.9);
+			transition: all 0.5s ease-in-out;
+		}
+
+		/*******************
+    		article
+		*******************/
+	.article-head{
+		margin-top: 40px;
+	}
+	.title-article h3{
+		font-weight: 300;
+		color: #222626;
+		
+	}
+	.article-text1{
+		margin-top: 20px;
+		margin-bottom: 38px;
+	}
+	.article-text2 h5{
+		font-weight: 300;
+		color: #959595;
+	}
+	.article-text2 p{
+		font-weight: 300;
+		color: #959595;
+	}
+
+
+
+	/*****************************
+	   		image section
+	******************************/
+	.image-section{
+		background: url(car.png) no-repeat center;
+		background-size: cover;
+		height: 100%;
+		background-attachment: fixed;
+	}
+	.image{
+		padding-top: 294px;
+		padding-bottom: 183px;
+
+	}
+	.text h1{
+		color: #ffffff;
+		font-weight: 300;
+		font-size: 50px;
+	}
+	.text p{
+		color: #ffffff;
+		font-weight: 300;
+	}
+	.text a{
+		color: #ffffff;
+		font-weight: 300;
+	}
+
+
+
+	/*****************************
+	   Reasons to get onboard section
+	******************************/
+	.onboard-section-part{
+		 background-color:  #82ca9c;
+	}
+	.onboard-section{
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+	.onboard-section-text h3,p,h5{
+		font-weight: 300;
+		color: #ffffff;
+	}
+	.onboard-section-text h5{
+		font-weight: 400;
+		color: #ffffff;
+	}
+
+
+
+	/*****************************
+	   order section
+	******************************/
+	.order-section{
+		background-color: #f6f7fa;
+	}
+	.order-1{
+		margin-top: 50px;
+		margin-bottom: 45px;
+	}
+	.top-button {
+	    background-color: #c0c0c0;
+		padding: 2px 12px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		color: #ffffff;
+		border: 0px solid #555555;
+		border-radius: 4px;
+		transition-duration: 0.5s;
+		cursor: pointer;
+	}
+	.top-button:hover {
+	    background-color: #bd8cbf;
+	}
+
+	.order-2{
+		padding: 30px 30px;
+		border: 0.5px dotted gainsboro;
+	}
+	.order-2:hover{
+		box-shadow: 0px 0px 20px #b7b7b7;
+		transition-duration: 0.6s;
+		
+	}
+	.order-2 h2{
+		font-weight: 300;
+		color: #2e3b4e;
+	}
+	.order-2 p{
+		font-weight: 300;
+		color: #8297a7;
+	}
+	.buy-button{
+	    background-color: #82CA9C;
+		padding: 10px 22px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		color: #ffffff;
+		border: 0px solid #555555;
+		border-radius: 4px;
+		transition-duration: 0.5s;
+		cursor: pointer;
+	}
+	.buy-button: hover {
+		color: #F7FFFFFF ;
+	    background-color: #87BA00;
+	}
+	.order-2 ul{
+		list-style: none;
+		margin-left: -38px;
+		margin-top: 12px;
+	}
+
+	.order-2 ul li{
+		display: inline;
+		padding: 7px;
+	}
+
+	.order-2 ul li a{
+		color:#c5c5c5;
+		text-decoration: none;
+
+	}
+	.order-2 ul li a:hover {
+		color: #5e9bcf;
+		text-decoration: none;
+	}
+
+
+
+	/*****************************
+	   Footer section
+	******************************/
+	.footer-section{
+		background-color: #192431;
+		height: 100%;
+	}
+
+	.footer{
+		padding-top: 100px ;
+		padding-bottom: 60px;
+	}
+	.footer1 h5{
+		font-weight: 400;
+		color: #f6f7fa;
+	}
+	.footer1 p{
+		font-weight: 300;
+		color: #f6f7fa;
+	}
+	.textbox {
+		background: url(ok.png) no-repeat 100% -5px;
+		background-color: #f6f7fa;
+		cursor:pointer;
+		border-radius: 3px;
+		border: none;
+		padding: 13px 10px;
+		width: 70%;
+		margin-top: 8px;
+		clear: both;
+	}
+
+	.massage{
+		margin-top: 9px;
+		color: #57697f !important;
+		font-size: 13px;
+	}
+	.footer-link{
+
+	}
+	.footer-link h5{
+		font-weight: 400;
+		font-size: 18px;
+		color: #f6f7fa;
+		margin-bottom: 12px;
+	}
+	.footer-link ul {
+		list-style: none;
+		margin-left: -40px;
+	}
+	.footer-link ul li{
+		color: #f6f7fa;
+		font-weight: 300;
+		padding-bottom: 3px;
+	}
+
+	/*****************************
+	   		media query
+	******************************/
+	
+	@media screen and (max-width: 480px){
+		.img-responsive {
+    	padding-bottom: 119px;
+	}
+
+		.banner-content h6 {
+	    color: #fff;
+	    font-size: 13px;
+	    font-weight: 400;
+	    padding-bottom: 325px;
+	}
+	.something-content-1 h6 {
+    color: #959595;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 67px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    }
+    .image {
+    padding-top: 100px;
+    padding-bottom: 125px;
+	}
+
+
+}
